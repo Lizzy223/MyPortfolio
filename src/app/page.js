@@ -15,7 +15,7 @@ export default function Home() {
         <title>Lizzie portfolio</title>
         <meta name="description" content="Created with love ❤️" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/Ellipse 7.png" />
       </Head>
       <Nav/>
       <Header/>      
