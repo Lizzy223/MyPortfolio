@@ -45,7 +45,7 @@ const Works = () => {
       id: 7,
       img: '/7.png',
       link: 'https://adatix-frontend.vercel.app',
-      about: ''
+      about: 'adatix'
     },
     {
       id: 8,
