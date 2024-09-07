@@ -16,7 +16,11 @@ const Footer = () => {
               <SiGmail  style={{fontSize:'1.5rem',color:'#fff'}} /></Box>
       </Box>
       <Box w='full' bg='#02091B' display='flex' alignItems='center' justifyContent='space-evenly' p='2rem'>
-        <Text fontWeight='400'  fontFamily="Reddit Sans" color='whitesmoke'>Developed by <Text as='a' cursor='pointer' color='whitesmoke' fontWeight='600'  fontFamily="Reddit Sans"  href='https://www.linkedin.com/in/thisebiragirl' target='_blank' >Lizzie</Text></Text>
+              <Text fontWeight='400' fontFamily="Reddit Sans" color='whitesmoke'>Developed by
+                  <Text as='a' cursor='pointer' color='whitesmoke' fontWeight='600' fontFamily="Reddit Sans" href='https://www.linkedin.com/in/thisebiragirl' target='_blank' >Lizzie</Text>
+                  Designed by 
+                  <Text as='a' cursor='pointer' color='whitesmoke' fontWeight='600'  fontFamily="Reddit Sans"  href='https://www.linkedin.com/in/iamabdooll/' target='_blank' >Abdul</Text>
+              </Text>
       </Box>
     </Box>
   )

@@ -83,7 +83,7 @@ const DesktopNav = () => {
                 fontSize={'sm'}
                 fontWeight={500}
                 color={linkColor}
-                fontFamily='raleway'
+                fontFamily='Raleway'
                 _hover={{
                   textDecoration: 'none',
                   color: '#fff',
@@ -215,13 +215,13 @@ const MobileNavItem = ({ label, children, href }) => {
 
 
 const NAV_ITEMS = [
-  {
-    label: 'About',
+  // {
+  //   label: 'About',
     
-  },
-  {
-    label: 'Project',
-     },
+  // },
+  // {
+  //   label: 'Project',
+  //    },
   {
     label: 'Resume',
     href: 'https://drive.google.com/file/d/1cr7mX-efMHwnu_pfBdFPMWc2EumKf_P4/view?usp=drive_link',
