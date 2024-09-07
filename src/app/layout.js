@@ -1,7 +1,7 @@
 import { Raleway } from "next/font/google";
 import "./globals.css";
 
-const inter = Raleway({ subsets: ["latin"] });
+export const inter = Raleway({ subsets: ["latin"] , variable: '--font-raleway'});
 
 export const metadata = {
   title: "Lizzie portfolio",
@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.variable}>{children}</body>
     </html>
   );
 }

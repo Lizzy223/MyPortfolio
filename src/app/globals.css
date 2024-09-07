@@ -19,7 +19,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  font-family: "Raleway", sans-serif;
+  font-family: var(--font-raleway), sans-serif;
   font-style: normal;
   background: linear-gradient(
       to bottom,
