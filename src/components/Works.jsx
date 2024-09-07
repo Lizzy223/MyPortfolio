@@ -61,7 +61,7 @@ const Works = () => {
             <Box display='flex' w='full' mb='1rem' alignItems='center' gap='6'>
                   <Image src='/briefcase.png'  alt=''/>
                 <Text fontSize={['1.25rem','3rem']} whiteSpace='noWrap' color='#fff' fontWeight='700' fontFamily='satoshi'>Some Things I’ve Built</Text>
-                <Image src='/Vector 1.png' h='100%' w='50%' alt=''/>
+                <Image src='/Vector 1.png' h='100%' w='50%' display={['none','block']} alt=''/>
             </Box>
             <Text fontSize={['.8rem','1.25rem']} fontWeight='400' color='#fff' fontFamily='raleway' >Check out some of my featured projects.</Text>
         </Box>
@@ -91,7 +91,7 @@ const Works = () => {
                     opacity="0" // Hidden by default
                     transition="opacity 0.3s ease"
                   >
-                    <Text color="white" fontSize=".8rem" fontWeight="bold">
+                    <Text color="white" fontSize={[".65rem",".8rem"]} fontWeight="bold">
                       {i?.about||'Your Text Here'}
                     </Text>
                   </Box>

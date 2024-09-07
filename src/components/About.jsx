@@ -13,7 +13,7 @@ export const About = () => {
             <Box display='flex' w='full' mb='1rem' alignItems='center' gap='6'>
                   <Image src='/user.png'  alt=''/>
                 <Text fontSize='2.85rem' whiteSpace='noWrap' fontWeight='700' fontFamily='satoshi'>About Me</Text>
-                <Image src='/Vector 1.png' h='100%' w='50%' alt=''/>
+                <Image src='/Vector 1.png' h='100%' w='50%' display={['none','block']} alt=''/>
             </Box>
             <Text  fontSize={['.8rem','1rem']} fontFamily='raleway' lineHeight='2rem' color='#1F1F29' fontWeight='400'>
 Hello, I am Kolade Elizabeth, Creative Front-End Developer. I enjoy working closely with design teams to faithfully translate their designs right down to the last pixel. I am adept at handling multiple projects in a fast paced environment using modern frontend technologies. 
