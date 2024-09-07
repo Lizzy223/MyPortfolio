@@ -17,7 +17,7 @@ export const About = () => {
             </Box>
             <Text  fontSize={['.8rem','1rem']} pb={['2rem','0']} fontFamily='Raleway'  lineHeight='2rem' color='#1F1F29' fontWeight='400'>
 Hello, I am Kolade Elizabeth, Creative Front-End Developer. I enjoy working closely with design teams to faithfully translate their designs right down to the last pixel. I am adept at handling multiple projects in a fast paced environment using modern frontend technologies. 
-Excellent at time management, organization, problem solving and meeting deadlines. u that bring the creative process to life just as designers intended them to be.
+Excellent at time management, organization, problem solving and meeting deadlines.
 
             </Text>
         </Box>
