@@ -224,10 +224,10 @@ const NAV_ITEMS = [
      },
   {
     label: 'Resume',
-    href: '#',
+    href: 'https://drive.google.com/file/d/1cr7mX-efMHwnu_pfBdFPMWc2EumKf_P4/view?usp=drive_link',
   },
   {
     label: 'Contact',
-    href: '#',
+    href: '',
   },
 ];

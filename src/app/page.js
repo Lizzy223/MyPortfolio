@@ -6,7 +6,7 @@ import Header from '../components/Header'
 import Nav from '../components/Nav'
 import { About } from '../components/About'
 import Works from '../components/Works'
-
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -20,7 +20,8 @@ export default function Home() {
       <Nav/>
       <Header/>      
       <About/>
-      <Works/>
+      <Works />
+      <Footer />
     </ChakraProvider>
   )
 }

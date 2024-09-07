@@ -27,7 +27,7 @@ HEY THERE
                     loop
                     />
                </Text>
-            <Buttons>Let us Talk</Buttons>
+            <Box as='a' href='mailto:koladeelizabeth01@gmail.com'><Buttons>Let us Talk</Buttons></Box>
             
         </Box>
         <Box w={['full','50%']} float='right'>
