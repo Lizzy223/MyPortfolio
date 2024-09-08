@@ -7,6 +7,9 @@ import Nav from '../components/Nav'
 import { About } from '../components/About'
 import Works from '../components/Works'
 import Footer from '../components/Footer'
+import { Raleway } from "next/font/google";
+
+export const raleway = Raleway({ subsets: ["latin"] , variable: '--font-raleway',weight: '400',});
 
 export default function Home() {
   return (
@@ -17,11 +20,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/Ellipse 7.png" />
       </Head>
-      <Nav/>
-      <Header/>      
-      <About/>
-      <Works />
-      <Footer />
+      <Nav className={raleway.variable}/>
+      <Header className={raleway.variable}/>      
+      <About className={raleway.variable}/>
+      <Works className={raleway.variable} />
+      <Footer className={raleway.variable} />
     </ChakraProvider>
   )
 }

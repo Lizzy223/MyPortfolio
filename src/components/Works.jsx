@@ -3,7 +3,7 @@ import React from 'react'
 import { Box,Image, Text } from '@chakra-ui/react'
 // import Buttons from '../common/Button'
 
-const Works = () => {
+const Works = (className) => {
   const data = [
     {
       id: 1,
@@ -60,10 +60,10 @@ const Works = () => {
         <Box>
             <Box display='flex' w='full' mb='1rem' alignItems='center' gap='6'>
                   <Image src='/briefcase.png'  alt=''/>
-                <Text fontSize={['1.25rem','2.85rem']} whiteSpace='noWrap' color='#fff' fontWeight='700' fontFamily='satoshi'>Some Things I’ve Built</Text>
+                <Text fontSize={['1.25rem','2.85rem']} whiteSpace='noWrap' color='#fff' fontWeight='700' fontFamily={className||'satoshi'}>Some Things I’ve Built</Text>
                 <Image src='/Vector 1.png' h='100%' w='50%' display={['none','block']} alt=''/>
             </Box>
-            <Text fontSize={['.8rem','1.25rem']} fontWeight='400' color='#fff' fontFamily='Raleway' >Check out some of my featured projects.</Text>
+            <Text fontSize={['.8rem','1.25rem']} fontWeight='400' color='#fff' fontFamily={className} >Check out some of my featured projects.</Text>
         </Box>
         <Box mb='2rem' display='grid' gap='6' mt='4rem' gridTemplateColumns={['repeat(1,1fr)','repeat(2,1fr)']} >
         {
@@ -91,7 +91,7 @@ const Works = () => {
                     opacity="0" // Hidden by default
                     transition="opacity 0.3s ease"
                   >
-                    <Text color="white" fontSize={[".65rem",".8rem"]} fontWeight="bold">
+                    <Text color="white" fontSize={[".65rem",".8rem"]} fontFamily={className} fontWeight="bold">
                       {i?.about||'Your Text Here'}
                     </Text>
                   </Box>

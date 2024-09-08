@@ -3,7 +3,7 @@ import React from 'react'
 import { FaLinkedin, FaGithub} from 'react-icons/fa'
 import { SiGmail } from "react-icons/si";
 
-const Footer = () => {
+const Footer = (className) => {
   return (
       <Box bg='#02091B'>
           <Box w='full' display='flex' alignItems='center' justifyContent='space-evenly' p='2rem'>
@@ -16,10 +16,10 @@ const Footer = () => {
               <SiGmail  style={{fontSize:'1.5rem',color:'#fff'}} /></Box>
       </Box>
       <Box w='full' bg='#02091B' display='flex' alignItems='center' justifyContent='space-evenly' p='2rem'>
-              <Text fontWeight='400' fontFamily="Reddit Sans" color='whitesmoke'>Developed by
-                  <Text as='a' cursor='pointer' color='whitesmoke' fontWeight='600' fontFamily="Reddit Sans" href='https://www.linkedin.com/in/thisebiragirl' target='_blank' >Lizzie</Text>
+              <Text fontWeight='400' fontFamily={className} color='whitesmoke'>Developed by
+                  <Text as='a' cursor='pointer' color='whitesmoke' fontWeight='600' fontFamily={className} href='https://www.linkedin.com/in/thisebiragirl' target='_blank' > Lizzie </Text>
                   Designed by 
-                  <Text as='a' cursor='pointer' color='whitesmoke' fontWeight='600'  fontFamily="Reddit Sans"  href='https://www.linkedin.com/in/iamabdooll/' target='_blank' >Abdul</Text>
+                  <Text as='a' cursor='pointer' color='whitesmoke' fontWeight='600'  fontFamily={className}  href='https://www.linkedin.com/in/iamabdooll/' target='_blank' > Abdul</Text>
               </Text>
       </Box>
     </Box>

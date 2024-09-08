@@ -6,16 +6,16 @@ import {ReactTyped} from "react-typed"
 import Buttons from '../common/Button'
 
 
-const Header = () => {
+const Header = (className) => {
   return (
     <Box w='full' h={['100%','75vh']} gap='12' p={['1rem','2rem']} bg='#02091B' color='#fff' display='flex' flexDirection={['column','row']} justifyContent='space-between' alignItems='center' >
             
         <Box w={['full','50%']} p={['0','2rem']} mt={['1rem','']} display='flex' flexDirection='column' gap='6' >
-            <Text fontSize='20px' fontFamily='Raleway' color='#F2F2F4' fontWeight='400'>
+            <Text fontSize='20px' fontFamily={className} color='#F2F2F4' fontWeight='400'>
 HEY THERE
             </Text>
             <Text fontSize={['2rem','56px']} fontFamily='satoshi' whiteSpace='nowrap' fontWeight='900'>👋 I’m Lizzie.</Text>
-            <Text  fontSize={['.8rem','20px']} fontFamily='Raleway' color='#F2F2F4' fontWeight='400'>
+            <Text  fontSize={['.8rem','20px']} fontFamily={className} color='#F2F2F4' fontWeight='400'>
                 <ReactTyped
                 strings={[
                         "I’m a front-end developer specialized in building user centered digital experiences.",

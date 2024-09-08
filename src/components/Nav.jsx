@@ -27,7 +27,7 @@ export default function Nav() {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
-    <Box>
+    <Box >
       <Flex
         bg='#02091B' color='#fff'
         minH={'60px'}
@@ -83,7 +83,7 @@ const DesktopNav = () => {
                 fontSize={'sm'}
                 fontWeight={500}
                 color={linkColor}
-                fontFamily='Raleway'
+                fontFamily={`var(--font-raleway)`}
                 _hover={{
                   textDecoration: 'none',
                   color: '#fff',
